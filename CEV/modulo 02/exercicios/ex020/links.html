@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(128, 5, 5);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color:blue
+        }
+        .especial{
+            background-color: darkred;
+        }
+        .especial::before{
+            content: '⇒';
+        }
+        .especial::after{
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Julialunna" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCqrQNC-qCzk9mV0s3_C7xFA" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com"target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, a. Atque facere rem veritatis tenetur commodi molestiae ad deserunt quo accusamus repellat sed autem, iusto similique tempora perferendis sit iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, ratione reprehenderit voluptates repudiandae iste minima sint beatae qui recusandae facilis ea enim repellendus soluta dolore quidem deleniti atque. Cupiditate, doloremque!</p>
+</body>
+</html>
