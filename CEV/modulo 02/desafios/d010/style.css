@@ -31,9 +31,10 @@ header>p{
     max-width: 500px;
     text-align: center;
 }
-header>nav{
-    margin-top: 8px;
-    padding-top: -1px;
+nav{
+    background-color: #1f4d33;
+    padding-top: 8px;
+    margin-bottom: 1px;
     box-shadow:  -2px 2px 0px #5251517e;
 }
 nav>a{
@@ -56,8 +57,8 @@ body{
 }
 main{
     background-color: white;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 280px;
+    max-width: 800px;
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -115,6 +116,7 @@ ul{
 img{
     display: block;
     margin: auto;
+    width:100%;
 }
 strong.destaque{
     color: #53CC87;
@@ -129,7 +131,21 @@ footer>p{
     padding: 2px;
     color: white;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
 div.centralizado{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px -10px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.centralizado > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
