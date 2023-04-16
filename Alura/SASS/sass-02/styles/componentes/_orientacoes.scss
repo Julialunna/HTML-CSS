@@ -1,0 +1,13 @@
+@import '../abstract/variaveis';
+
+.orientacao{
+    max-width: 400px;
+    background-color: $cor-primaria;
+    border-radius: 20px;
+    padding: 24px;
+    margin: auto;
+    margin-top: 12px;
+    img{
+        width: 100%;
+    }
+}
